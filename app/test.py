@@ -1,7 +1,7 @@
 from redis.sentinel import Sentinel
 
 conf = {
-    'sentinel': [('redis-sentinel-1', 26379), ('redis-sentinel-1', 26379), ('redis-sentinel-1', 26379)],
+    'sentinel': [('redis-sentinel-1', 26379), ('redis-sentinel-2', 26379), ('redis-sentinel-3', 26379)],
     'master_group_name': 'rmain',
     #Connect sentinel configuration
     'sentinel_conf': { 
